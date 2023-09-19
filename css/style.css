@@ -126,34 +126,50 @@ a {
 padding: 3rem 0;
 }
 
-.white-bg {
+.first-slide {
   padding: 1rem 0;
 }
 
 /* 3-SECTION */
 .col1 {
-  background-color: #1E90FF;
-  min-height: 500px;
   width: 60%;
 }
 
 .col2{
-  background-color: #FFC0CB;
-  min-height: 500px;
   width: 40%;
 }
 
-.gray-bg{
+.col2 h2 {
+  padding-top: 2.5rem;
+  font-size: 3rem;
+}
+
+.col2 p {
+  padding-top: 2.5rem;
+  font-size: 1.3rem;
+}
+
+.second-slide{
   background-color: #D3D3D3;
   padding: 1rem 0;
 }
 
 .square{
-  background-color: #228B22;
-  height: 50rem;
-  
+  text-align: center;
 }
 
+.square h2 {
+  padding-top: 1.5rem;
+  font-size: 3rem;
+}
+.square p {
+  padding-top: 2.5rem;
+  font-size: 1.3rem;
+}
+
+.square img{
+  width: 100rem;
+}
 /* FOOTER */
 footer {
   /* Debug */
