@@ -27,7 +27,7 @@ body {
 .button{
   background-color: white;
   color: black;
-  padding: .3rem .6rem;
+  padding: .4rem .7rem;
   border-radius: 1rem;
 }
 /* HEADER */
@@ -57,7 +57,6 @@ a {
 }
 .header-logo {
   width: 20%;
-  text-align: ;
 }
 
 .link-list {
@@ -73,6 +72,11 @@ a {
   width: 20%;
 }
 
+.hero-content {
+  text-align: center;
+  color: white;
+}
+
 /* HERO */
 .hero {
   padding: 6rem 0;
@@ -85,6 +89,35 @@ a {
 .hero-content {
   width: 60%;
   margin: 0 auto;
+}
+
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.hero-content p{
+  padding: 0 2rem;
+  font-size: 1.45rem;
+  text-align: center;
+}
+
+.hero-button{
+  justify-content: center;
+}
+
+.download {
+  margin: 2rem 1rem;
+  padding: 0.8rem 1rem;
+}
+
+.open-on-browser {
+  margin: 2rem 1rem;
+  background-color: #23272a;
+  color: white;
+  padding: 0.8rem 1rem;
 }
 /* MAIN */
 
