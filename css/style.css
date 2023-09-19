@@ -154,6 +154,7 @@ padding: 3rem 0;
   padding: 1rem 0;
 }
 
+/* BIG SLIDE */
 .square{
   text-align: center;
 }
@@ -169,6 +170,27 @@ padding: 3rem 0;
 
 .square img{
   width: 100rem;
+}
+
+/* STAR SELECTION */
+.content-star-slide{
+  text-align: center;
+}
+
+.content-star-slide h3 {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.download-on-mac {
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+.blue-button{
+  background-color: #7289da;
+  color: white;
+  font-size: 1.5rem;
 }
 /* FOOTER */
 footer {
