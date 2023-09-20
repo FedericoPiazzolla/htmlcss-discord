@@ -13,6 +13,11 @@ body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* UTILITIES */
 .container {
   width: 80%;
@@ -25,6 +30,7 @@ body {
 }
 
 .button{
+  display: inline-block;
   background-color: white;
   color: black;
   padding: .4rem .7rem;
@@ -51,10 +57,6 @@ body {
   padding: .5rem;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
 .header-logo {
   width: 20%;
 }
@@ -82,8 +84,7 @@ a {
   padding: 6rem 0;
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  background-position: center;
-  min-height: 32rem;
+  background-position: center left;
 }
 
 .hero-content {
@@ -106,7 +107,7 @@ a {
 }
 
 .hero-button{
-  justify-content: center;
+  text-align: center;
 }
 
 .download {
@@ -171,17 +172,22 @@ padding: 3rem 0;
 }
 
 .square img{
-  width: 100rem;
+  width:100%;
 }
 
 /* STAR SELECTION */
 .content-star-slide{
   text-align: center;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .content-star-slide h3 {
   font-size: 1.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .download-on-mac {
