@@ -240,6 +240,9 @@ footer {
 }
 
 .social{
+  flex-direction: row;
+  list-style-type: none;
+  gap: 1rem;
   font-size: 1.5rem;
   color: white;
 }
